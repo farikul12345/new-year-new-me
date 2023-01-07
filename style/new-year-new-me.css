@@ -90,6 +90,7 @@ ul li{
 .plan-content{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .plan-instruction{
     margin: 10px;
