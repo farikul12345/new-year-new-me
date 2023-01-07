@@ -1,0 +1,213 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-container{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 237, 194);
+}
+.menu-items{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+ul li{
+    margin-left: 30px;
+}
+.primary{
+    color: #fff;
+    background-color: orangered;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+/* Banner section style */
+.banner-section{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner-content{
+    text-align: right;
+    padding-top: 216px;
+    padding-bottom: 166px;
+    padding-right: 230px;
+    align-items: center;
+}
+.banner-title{
+   font-size: 65px;
+   font-weight: 700;
+   color: #ffff;
+   margin-bottom: 24px;
+}
+.banner-description{
+   color: #ffff;
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+/* Previous Year Style */
+.early-experience{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 130px 320px;
+   background-color: azure;
+   padding: 5px 10px;
+}
+.images{
+
+}
+.contents{
+   margin-left: 85px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.description{
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.image-content{
+   justify-content: space-between;
+}
+/* Plan section style */
+.plan-section{
+   background-color: lightyellow;
+   margin: 130px 320px;
+   padding: 15px 10px;
+}
+.plan-content{
+    display: flex;
+    justify-content: center;
+}
+.plan-instruction{
+    margin: 10px;
+    text-align: center;
+    border: 3px solid white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+.plan-titles{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.plan-title{
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 18px;
+   margin-bottom: 16px;
+}
+/* Positive Section Banner Style */
+.positive-section-banner{
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
+    background-repeat: no-repeat;
+    background-position: right left;
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-bottom: 10px;
+    
+}
+.positive-banner{
+   text-align: left center;
+   padding-top: 58px;
+   padding-left: 45px;
+}
+.positive-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffff;
+}
+/* Last Banner */
+.last-banner-section{
+    background-image: url(../images/Happy\ New\ Year\ Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    
+}
+.last-banner{
+   text-align: center;
+   padding: 200px;
+}
+.last-title{
+   font-size: 70px;
+   font-weight: bold;
+   color: #ffff;
+   font-style: initial;
+}
+.last-last-title{
+   font-size: 80px;
+   font-weight: bold;
+   color: yellow;
+   font-style: oblique;
+}
+/* Footer Section Style */
+.footer-section{
+    background-color: #151414;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-future{
+
+}
+.footer-title{
+   font-size: 45px;
+   font-weight: 700;
+   color: #F8F8F8;
+   margin-bottom: 20px;
+      
+}
+.footer-description{
+   color: #fff;
+   margin-bottom: 24px;
+}
+.image-icon{
+
+}
+.footer-subscribe{
+
+}
+.subscribe-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+input{
+    height: 25px;
+    width: 100%;
+    background-color: #151414;
+    border: 2px solid white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 70px;
+    margin-top: 31px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+
