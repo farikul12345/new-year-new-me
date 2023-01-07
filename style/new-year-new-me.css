@@ -42,9 +42,9 @@ ul li{
 }
 .banner-content{
     text-align: right;
-    padding-top: 216px;
-    padding-bottom: 140px;
-    padding-right: 145px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    padding-right: 135px;
     align-items: center;
 }
 .banner-title{
@@ -63,12 +63,8 @@ ul li{
    display: flex;
    justify-content: space-around;
    align-items: center;
-   margin: 120px 240px;
-   background-color: azure;
-   padding: 5px 10px;
-}
-.images{
-
+   margin: 100px 180px;
+   
 }
 .contents{
    margin-left: 85px;
@@ -88,9 +84,8 @@ ul li{
 }
 /* Plan section style */
 .plan-section{
-   background-color: lightyellow;
-   margin: 120px 240px;
-   padding: 15px 10px;
+   margin: 100px 180px;
+   
 }
 .plan-content{
     display: flex;
@@ -119,14 +114,15 @@ ul li{
 }
 /* Positive Section Banner Style */
 .positive-section-banner{
-    background-image: url(../images/watch.png), url(../images/gradient2.png);
+    background-image: url(../images/watch.png);
     background-repeat: no-repeat;
-    background-position: right left;
+    background-position: center;
     height: 300px;
-    margin-top: 130px;
-    margin-left: 320px;
-    margin-right: 320px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
     margin-bottom: 10px;
+    
     
 }
 .positive-banner{
@@ -150,7 +146,10 @@ ul li{
 }
 .last-banner{
    text-align: center;
-   padding: 200px 210px;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   padding-left: 210px;
+   padding-right: 210px;
    
 }
 .last-title{
@@ -174,10 +173,7 @@ ul li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
-}
-.footer-future{
-
+    margin-top: 40px;
 }
 .footer-title{
    font-size: 45px;
@@ -189,12 +185,6 @@ ul li{
 .footer-description{
    color: #fff;
    margin-bottom: 24px;
-}
-.image-icon{
-
-}
-.footer-subscribe{
-
 }
 .subscribe-title{
     font-size: 25px;
